@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sample document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+</head>
+<body>
+
+    
+</body>
+<script>
+    var str="hello world";
+    console.log(str.length);
+    console.log(str[0]);
+    console.log(str[str.length-1]);
+    var result="";
+    for(i=str.length-1; i>=0; i--){
+      result+=str[i];
+    }
+    console.log(result);
+
+    a=str.concat(123);
+    console.log(a);
+
+    b="sudheer".concat("is a front end developer")
+    console.log(b);
+
+   c=str.indexOf("world")
+    console.log(c)
+
+    d=str.indexOf("z")
+    console.log(d)
+
+    e=str.replace("world","everyone")
+    console.log(e)
+
+    f=str.slice(3,8)
+    console.log(f);
+
+</script>
+</html>
